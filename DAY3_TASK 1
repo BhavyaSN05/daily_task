@@ -1,0 +1,18 @@
+class Person{
+    String name;
+    int age;
+    public Person(String name ,int age){
+        this.name=name;
+        this.age=age;
+    }
+    public void introduce(){
+        System.out.println("hi Name:"+name);
+        System.out.println("age:"+age);
+        System.out.println("hello ,i am "+name+".I am "+age+"years old.");
+    }
+    public static void main(String[]args){
+        Person person=new Person("Bhavya",18);
+        person.introduce();
+    }
+    }
+    
